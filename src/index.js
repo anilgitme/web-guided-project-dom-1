@@ -112,6 +112,17 @@ console.log(clonedCard)
 
 
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
+const clonedNav = document.querySelector('.menu-item')
+clonedNav.remove();
 
+document.getElementById("mainNav").appendChild(clonedNav);
+
+// const mainNav = document.getElementById('mainNav');
+// mainNav.remove();
 
 // 👉 9- Show to students the insertAdjacentHTML method [STRETCH if time allows]
+
+//The insertAdjacentHTML() method of the Element interface parses
+//the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at
+//a specified position.It does not reparse the element it is being used on, and
+//thus it does not corrupt the existing elements inside that element.
